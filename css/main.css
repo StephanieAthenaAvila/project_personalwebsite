@@ -1,0 +1,216 @@
+/*
+Project: Personal Website
+Description: This is our personal site project. It will be posted on GITHUB using gh-pages.
+Color Theme:
+  -Primary Color: 114,19,48
+  -Secondary Color: 39, 117, 34
+  -Compliment Color: 215, 140, 110
+  -Compliment Color: 88, 26, 11
+  -Compliment Color: 15, 87, 56
+  -Base Color: White
+*/
+
+/*=====Global Styles=====*/
+body, html{
+  margin:0;
+  padding:0;
+}
+ul{
+  list-style-type:none;
+}
+a{
+text-decoration:none;
+color:rgb(15, 87, 56);
+}
+h1, h2{
+  margin: 0;
+}
+.container{
+margin-right:15px;
+margin-left:15px;
+}
+.border{
+  border-bottom: 2px solid white;
+}
+/*=====Header Styles=====*/
+
+header{
+  height:100px;
+  background-color:rgb(114, 19, 48);
+}
+header a{
+  color:rgb(255, 255, 255);
+}
+.logo{
+  width:30%;
+  float:left;
+  margin-top: 30px;
+}
+.logo h1{
+  text-align:center;
+  margin:0;
+}
+.menu{
+  width:30%;
+  float:left;
+  margin-top: 25px;
+}
+.menu li{
+  float:left;
+}
+.menu li:after{
+  padding-right:7px;
+  content: " | ";
+}
+.sm-icons{
+  margin-top: 40px;
+  float: right;
+  width: 30%;
+}
+.sm-icons a{
+  padding-right: 7px;
+}
+.sm-icons i{
+  font-size: 1.2em;
+}
+/*=====Banner Styles=====*/
+#banner{
+  height: 300px;
+  background: url("../img/rasberries.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+.banner-text{
+  padding: 90px 0;
+}
+#banner h1{
+  margin: 0;
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 3em;
+}
+
+
+/*=====Skill STYLES=====*/
+
+#skills{
+  background-color: rgb(39, 117, 34);
+  padding: 30px 0px;
+  height: 475px;
+  color: white;
+}
+#skills .box{
+  width: 25%;
+  margin: 30px 2%;
+  height: 100%;
+  padding: 15px 20px;
+  border: 2px solid white;
+  height: 100%;
+  display: inline-block;
+}
+.skills-icon{
+  height:50px;
+  width: 50px;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.skills-icon2{
+  height:50px;
+  width: 50px;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.skills-icon3{
+  height:50px;
+  width: 50px;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.skills-icon i{
+  font-size: 2em;
+  color: rgb(39, 117, 34);
+  margin: 9px 10px;
+}
+.skills-info h2{
+  margin-top: 20px;
+  text-align: center;
+}
+.skills-info p{
+  text-align: justify;
+  line-height: 22px;
+}
+.skills-icon2 i{
+  font-size: 2em;
+  color: rgb(39, 117, 34);
+  margin: 9px 10px;
+}
+.skills-info2 h2{
+  margin-top: 20px;
+  text-align: center;
+}
+.skills-info2 p{
+  text-align: justify;
+  line-height: 22px;
+}
+.skills-icon3 i{
+  font-size: 2em;
+  color: rgb(39, 117, 34);
+  margin: 9px 10px;
+}
+.skills-info3 h2{
+  margin-top: 20px;
+  text-align: center;
+}
+.skills-info3 p{
+  text-align: justify;
+  line-height: 22px;
+}
+
+/*=====ABOUT STYLES=====*/
+
+#about{
+  background-color: rgb(215, 140, 110);
+  width: 100%;
+  color: white;
+  height: 300px;
+}
+#image{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.image-box{
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding: 25px;
+  margin-right: 10px;
+}
+#article{
+  width: 800px;
+  float: left;
+}
+.article-box{
+  width: 800px;
+  float: left;
+  padding: 25px;
+  border: 2px dotted #333;
+  margin: 10px 10px;
+}
+.article-box h2{
+  text-align: center;
+}
+/*=====Footer Styles=====*/
+#footer{
+  background-color: rgb(39, 117, 34);
+  width: 100%;
+  color: white;
+  height: 100px;
+}
